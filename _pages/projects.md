@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Various open-source projects...
+description: Various open-source projects & Talks...
 nav: true
 nav_order: 3
 display_categories: [Reinforcement Learning, Natural Language Understanding]

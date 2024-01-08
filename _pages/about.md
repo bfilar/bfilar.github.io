@@ -16,8 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hello, I'm Bobby Filar, a machine learning researcher and currently the Head of Data Science at [Sublime Security](https://sublime.security/). I lead our efforts in integrating machine learning into our email security platform, aiming to make it more robust and intelligent. Prior to Sublime Security, I led Security Machine Learning teams at Endgame and Elastic, focusing on SecML research, particularly in malware classification and assistive-ML. I'm really interested in the use of reinforcement learning, adversarial machine learning, and natural language understanding to help augment security workers day-to-day operations.
