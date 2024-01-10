@@ -5,19 +5,19 @@ description: Accelerating Adoption of Domain-Specific Languages with Large Langu
 img: assets/img/babbelphish.png
 importance: 2
 category: Natural Language Understanding
-giscus_comments: true
+
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/babbelphish.gif" title="BabbelPhish" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/babbelphish.png" title="BabbelPhish" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Natural Language to Domain Specific Language
 </div>
 
-<a href="https://github.com/bfilar/babbelphish" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+**BabbelPhising** Github Repo: <a href="https://github.com/bfilar/babbelphish" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
 
 ## Getting Started
 To install the required libraries, use:
