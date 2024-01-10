@@ -2,96 +2,72 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Bobby Filar
+    - name: Location
+      value: Minneapolis, MN, USA
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Head of Data Science
+      institution: Sublime Security
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed a computer vision feature for the detection and identification of brand impersonation and phishing portals
+        - Designed a natural language understanding model to perform intent classification and named entity recognition
+        - Designed malware classifier for detecting malicious macro documents
+        - Integrated these models into a robust API service, providing seamless access to users with minimal latency
+        - Conducted rigorous testing to evaluate the effectiveness of the models in detecting cyber threats, achieving high accuracy rates
+        - Optimized the models to reduce computer resource consumption, enabling them to operate efficiently on millions of emails daily and reducing the cost of computing resources.
+    
+    - title: Senior Manager, Security Data Science
+      institution: Elastic
+      year: 2019-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Responsible for recruiting and hiring (3x growth in 18 months).
+        - Sets research agenda by collaborating with cross-functional teams to design product features that leverage machine learning.
+        - Manages ML projects, including identifying data needs, setting go/no-go performance metrics, and communicating to stakeholders.
+        - Technical lead of Insights Initiative, an ML-backed approach to improving alert triage experience within the Elastic Security App.
+        - Focuses research on holistic ML approach (supervised + unsupervised learning) on tailoring detection experience to local environments.
+        - Researching the use of language models to detect anomalous behavior in event data.
+        - Built ML service on top of alert feedback data to reduce global false positives by ~40% within 48 hours post-model releases.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Director of Data Science
+      institution: Endgame (acquired by Elastic)
+      year: 2015-2019
       description:
+        - Recruited and led a distributed Data Scientists and Engineers team focused on delivering ML features and critical data pipeline enablers.
+        - Acted as an independent monitor of ML projects to track progress, identify challenges, and present results to key stakeholders.
+        - Designed and developed Artemis, a natural language interface for querying security event data.
+        - Developed ML features for a static PE binary malware classifier.
+        - Designed an Adversarial ML service for tree-based classifiers to discover blind spots and identify potential decay.
+        - Designed and implemented an Active Learning interface for increasing NLP model efficacy. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Senior Data Scientist
+      institution: Battelle Memorial Institute
+      year: 2011-2015
+      description:
+        - Designed and implemented a social media collection, analysis, and visualization platform.
+        - Developed an authorship attribution model for source code attribution.
+        - Built a model to demonstrate information diffusion within small online communities and predict future propagation
 
-- title: Open Source Projects
+- title: Patents
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Voice and textual interface for closed-domain environment (US20190088254A1)
+      year: 2019
+    - title: Chatbot interface for network security software application (US20210176282A1)
+      year: 2021
+    - title: Systems and Methods of Anomalous Pattern Discovery and Mitigation (US20220100857A1)
+      year: 2022
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Education
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: University of Pittsburgh
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Graduate Studies -- Security and Intelligence
+    - title: Ohio University
       items:
-        - Description 1.
-        - Description 2.
+        - Bachelor of Science -- Interational Communcation
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
