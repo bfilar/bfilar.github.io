@@ -20,7 +20,8 @@ Hello, I’m Bobby Filar, a machine learning researcher and currently the Head o
 
 My passion lies in augmenting security workers' day-to-day operations through:
 
-Natural language understanding
-Reinforcement learning
-Adversarial machine learning
+- Natural language understanding
+- Reinforcement learning
+- Adversarial machine learning
+
 I'm driven by the challenge of developing solutions that not only safeguard data but also empower security professionals to work more efficiently and effectively.
