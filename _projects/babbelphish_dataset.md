@@ -2,7 +2,7 @@
 layout: page
 title: BabbelPhish Dataset
 description: Open-Source Natural Language to Domain Specific Language for Email Security
-img: assets/img/7.jpg
+img: assets/img/huggingface.png
 importance: 3
 category: Natural Language Understanding
 ---
