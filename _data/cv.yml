@@ -9,18 +9,18 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Head of Data Science
+    - title: Head of Machine Learning
       institution: Sublime Security
       year: 2022
       description:
-        - Designed a computer vision feature for the detection and identification of brand impersonation and phishing portals
+        - Designed and co-developed ADÉ (Autonomous Detection Engineer), a specialized coding agent that writes detections through a knowledge base, tool use, and specialized sub-agents
+        - Co-authored an agent evaluation framework for LLM-generated security rules with hold-out human baselines; introduced metrics for detection accuracy (unique-TP precision), brittleness→robustness, and cost-to-pass syntactic validation
+        - Architected ASA (Autonomous Security Analyst), a deep reasoning agent for triaging phishing emails
+        - Created a computer vision model for the detection and identification of brand impersonation and phishing portals
         - Designed a natural language understanding model to perform intent classification and named entity recognition
-        - Designed malware classifier for detecting malicious macro documents
-        - Integrated these models into a robust API service, providing seamless access to users with minimal latency
-        - Conducted rigorous testing to evaluate the effectiveness of the models in detecting cyber threats, achieving high accuracy rates
         - Optimized the models to reduce computer resource consumption, enabling them to operate efficiently on millions of emails daily and reducing the cost of computing resources.
     
-    - title: Senior Manager, Security Data Science
+    - title: Senior Manager, Security Machine Learning
       institution: Elastic
       year: 2019-2022
       description:
