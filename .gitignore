@@ -9,3 +9,9 @@ _site
 Gemfile.lock
 vendor
 
+# CAMLIS scratch outputs
+analysis_output.txt
+detection_rules.json
+rules/
+rules_summary.csv
+
