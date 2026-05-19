@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -10,18 +10,20 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I’m Bobby Filar, a machine learning researcher and currently the Head of Data Science at [Sublime Security](https://sublime.security/), the first truly open email security platform. I lead our efforts in integrating machine learning capabilities into our product, aiming to make it more intuitive for users and combat sophisticated attacks. Before joining Sublime Security, I was at the helm of Security Machine Learning teams at Endgame and Elastic. During my time at Endgame, I introduced Artemis, a groundbreaking intelligent assistant for cyber defense. This innovative tool allowed security analysts to interact with endpoint data through natural language, streamlining the investigation process and significantly enhancing decision-making in cybersecurity. My work has consistently focused on SecML research, particularly in malware classification and assistive ML.
+I'm Bobby Filar, Head of AI at [Sublime Security](https://sublime.security/), where I lead a team building ML-driven detection capabilities and the agentic systems at the core of the platform. Alongside that work, I developed and own Sublime's AI Governance program, organized around a framework I presented at the 2026 AKJ AI Security Summit — [*Trust, Then Autonomy*]({{ '/projects/trust_then_autonomy/' | relative_url }}) — whose organizing principle is *human oversight by default, with autonomy earned incrementally through transparency and evidence.*
 
-My passion lies in augmenting security workers' day-to-day operations through:
+Before Sublime, I led security machine learning teams at Elastic and Endgame, where I built Artemis, an early natural language agent for security analysts.
 
-- Natural language understanding
-- Reinforcement learning
-- Adversarial machine learning
+My research spans adversarial ML, malware classification, and evaluating LLM performance via benchmarks. I've published at AAAI, ACM AISec, and USENIX, and co-authored foundational work on the [malicious use of artificial intelligence](https://arxiv.org/abs/1802.07228).
 
-I'm driven by the challenge of developing solutions that not only safeguard data but also empower security professionals to work more efficiently and effectively.
+These days, I'm most interested in:
+
+- Agentic systems that earn trust through transparency, not assumption
+- Evaluation methodology for LLMs in high-stakes, adversarial domains
+- AI governance that scales with capability rather than chasing it

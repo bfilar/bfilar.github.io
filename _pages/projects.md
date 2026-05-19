@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Open-source projects & talks...
+description: Frameworks, agents, and open-source projects.
 nav: true
 nav_order: 3
-display_categories: [Reinforcement Learning, Natural Language Understanding]
+display_categories: [AI Governance & Evaluation, Agentic Systems, Natural Language Understanding, Reinforcement Learning]
 horizontal: false
 ---
 
