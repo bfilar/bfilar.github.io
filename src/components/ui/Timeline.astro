@@ -3,7 +3,7 @@ export interface TimelineItemData {
     title: string;
     period: string;
     subtitle: string;
-    description?: string;
+    description?: string | string[];
     thesis?: string;
 }
 
@@ -35,9 +35,15 @@ const { items } = Astro.props;
                         {item.subtitle}
                     </div>
                     {item.description && (
-                        <div class="body mt-2">
-                            {item.description}
-                        </div>
+                        Array.isArray(item.description) ? (
+                            <ul class="body mt-2 list-disc pl-5 space-y-1">
+                                {item.description.map((line) => (
+                                    <li>{line}</li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <div class="body mt-2">{item.description}</div>
+                        )
                     )}
                     {item.thesis && (
                         <div class="body italic mt-2 opacity-80">
