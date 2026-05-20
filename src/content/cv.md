@@ -21,3 +21,12 @@ education:
 ---
 
 CV in progress — for the latest, see [LinkedIn](https://www.linkedin.com/in/bobby-filar/) or the [Projects](/projects) and [Publications](/publications) sections.
+
+## Professional Service
+
+**Program Committees**
+
+- [CAMLIS](https://www.camlis.org/) — Conference on Applied Machine Learning in Information Security
+- [WoRMA 2026](https://worma.gitlab.io/2026/) — 5th Workshop on Rethinking Malware Analysis (co-located with IEEE EuroS&P 2026, Lisbon)
+- [ACM AISec](https://aisec.cc/) — ACM Workshop on Artificial Intelligence and Security
+
