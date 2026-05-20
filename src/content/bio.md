@@ -5,14 +5,18 @@ shortBio: "Head of AI at Sublime Security. Research on agentic systems, LLM eval
 institution: "Sublime Security"
 ---
 
-I'm Bobby Filar, Head of AI at [Sublime Security](https://sublime.security/), where I lead a team building ML-driven detection capabilities and the agentic systems at the core of the platform. Alongside that work, I developed and own Sublime's AI Governance program, organized around a framework I presented at the 2026 AKJ AI Security Summit — [*Trust, Then Autonomy*](/projects/trust-then-autonomy) — whose organizing principle is *human oversight by default, with autonomy earned incrementally through transparency and evidence.*
+I'm Bobby Filar, Head of AI at [Sublime Security](https://sublime.security/), where I lead a team building ML-driven detection capabilities and the agentic systems at the core of the platform.
 
-Before Sublime, I led security machine learning teams at Elastic and Endgame, where I built Artemis, an early natural language agent for security analysts.
+Much of my work centers on three problems that get harder when the AI is operating in adversarial production: **how to evaluate it rigorously**, **how to secure it architecturally**, and **how to graduate it from supervised to autonomous deployment on the basis of evidence.**
 
-My research spans adversarial ML, malware classification, and evaluating LLM performance via benchmarks. I've published at AAAI, ACM AISec, and USENIX, and co-authored foundational work on the [malicious use of artificial intelligence](https://arxiv.org/abs/1802.07228).
+On *evaluation*, I co-authored the [CAMLIS 2025 paper](/projects/camlis-2025) introducing three metrics for measuring LLM-generated detection rules, and lead the [MQL Benchmark](/projects/mql-benchmark) — a 30,000-example open-source evaluation suite for natural-language → DSL generation with a public model leaderboard. On *security*, I led the [secure-by-design architecture](/projects/secure-by-design-agents) for our two production agents (ASA and ADÉ), built on the principle that the platform — not the model — enforces the security boundary. And on *governance*, I designed and own Sublime's AI Governance program, organized around the [*Trust, Then Autonomy*](/projects/trust-then-autonomy) framework — human oversight by default, with autonomy earned incrementally through transparency and evidence.
+
+Before Sublime, I led security machine learning teams at Elastic and Endgame, where I built Artemis, an early natural-language agent for security analysts.
+
+My broader research spans adversarial ML, malware classification, and human-AI interaction in security. I've published at AAAI, ACM AISec, and USENIX, and contributed the cybersecurity-domain perspective to the [*Malicious Use of AI*](https://arxiv.org/abs/1802.07228) report (Brundage et al., 2018).
 
 ## Current interests
 
-- Agentic systems that earn trust through transparency, not assumption
-- Evaluation methodology for LLMs in high-stakes, adversarial domains
+- Designing benchmarks and evals for LLM agents in adversarial production
+- Architecting agent security: platform-enforced boundaries, prompt injection mitigation, graduated autonomy
 - AI governance that scales with capability rather than chasing it

@@ -80,11 +80,12 @@ const cv = defineCollection({
     schema: z.object({
         name: z.string(),
         title: z.string(),
+        location: z.string().optional(),
         experience: z.array(z.object({
             role: z.string(),
             institution: z.string(),
             period: z.string(),
-            description: z.string(),
+            description: z.union([z.string(), z.array(z.string())]).optional(),
         })).optional(),
         education: z.array(z.object({
             degree: z.string(),
@@ -92,6 +93,11 @@ const cv = defineCollection({
             period: z.string(),
             thesis: z.string().optional(),
             description: z.string().optional(),
+        })).optional(),
+        patents: z.array(z.object({
+            title: z.string(),
+            number: z.string().optional(),
+            year: z.string(),
         })).optional(),
     }),
 });

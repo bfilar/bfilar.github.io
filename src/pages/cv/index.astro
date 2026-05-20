@@ -16,13 +16,13 @@ if (!cvEntry) {
 }
 
 const { Content } = await render(cvEntry);
-const { name, title, experience = [], education = [] } = cvEntry.data;
+const { name, title, location, experience = [], education = [], patents = [] } = cvEntry.data;
 ---
 
 <BaseLayout title={PAGES.cv.title}>
     <header class="page-header">
         <h1 class="page-title">{PAGES.cv.title}</h1>
-        <p class="page-subtitle">{PAGES.cv.subtitle}</p>
+        {location && <p class="page-subtitle">{location}</p>}
     </header>
 
     <div class="container-narrow">
@@ -30,7 +30,7 @@ const { name, title, experience = [], education = [] } = cvEntry.data;
             experience.length > 0 && (
                 <section class="section">
                     <h2 class="section-title border-b border-border pb-2">
-                        Professional Experience
+                        Experience
                     </h2>
                     <Timeline items={experience.map(exp => ({
                         title: exp.role,
@@ -38,6 +38,25 @@ const { name, title, experience = [], education = [] } = cvEntry.data;
                         period: exp.period,
                         description: exp.description
                     }))} />
+                </section>
+            )
+        }
+
+        {
+            patents.length > 0 && (
+                <section class="section">
+                    <h2 class="section-title border-b border-border pb-2">
+                        Patents
+                    </h2>
+                    <ul class="body list-disc pl-5 space-y-2">
+                        {patents.map(p => (
+                            <li>
+                                {p.title}
+                                {p.number && <span class="opacity-75"> ({p.number})</span>}
+                                <span class="opacity-75"> — {p.year}</span>
+                            </li>
+                        ))}
+                    </ul>
                 </section>
             )
         }
@@ -64,4 +83,3 @@ const { name, title, experience = [], education = [] } = cvEntry.data;
         </div>
     </div>
 </BaseLayout>
-
