@@ -11,4 +11,4 @@ tags:
 
 Published a self-audit of Sublime's AI safety posture: a maturity checklist for deploying autonomous AI against attacker-authored content, and the four pillars we hold ourselves to — treating the input as the adversary, calibrated (not merely confident) output, tiered autonomy applied to our own agents, and symmetric red-teaming.
 
-Companion writeup: [Sublime blog post](https://sublime.security/blog/ai-safety-evolved-secure-by-design-safe-by-measurement)
+Companion writeup: [project page](/projects/ai-safety-evolved) · [Sublime blog post](https://sublime.security/blog/ai-safety-evolved-secure-by-design-safe-by-measurement)

@@ -11,4 +11,4 @@ tags:
 
 Attack Spotlight breakdown of a credential phishing campaign that paired a standard fake-document-share lure with a second prompt injection payload aimed squarely at AI security scanners, using context poisoning and self-negation techniques to try to talk the model out of flagging the message.
 
-Read: [Sublime blog post](https://sublime.security/blog/adversarial-prompt-injection-payload-for-evading-ai-based-detection-embedded-in-phishing-campaign)
+Companion writeup: [project page](/projects/prompt-injection-in-the-wild) · [Sublime blog post](https://sublime.security/blog/adversarial-prompt-injection-payload-for-evading-ai-based-detection-embedded-in-phishing-campaign)
