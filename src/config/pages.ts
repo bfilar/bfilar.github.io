@@ -17,7 +17,7 @@ export const PAGES: PagesConfig = {
         isActive: true,
     },
     talks: {
-        title: "Talks & News",
+        title: "Media & Writing",
         subtitle: "Selected public talks, writing, and news.",
         isActive: true,
     },

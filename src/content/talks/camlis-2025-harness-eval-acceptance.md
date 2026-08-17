@@ -11,4 +11,4 @@ tags:
 
 Paper accepted at the Conference on Applied Machine Learning in Information Security (CAMLIS 2025): *Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis.* Shows that a student's convergence toward a stronger teacher model correlates with its improvement against a held-out gold standard — making teacher-relative lift a usable proxy for harness quality when labeled benchmarks don't exist.
 
-Read: [project page](/projects/camlis-2025-harness-eval) · [arXiv:2608.13608](https://arxiv.org/abs/2608.13608)
+Read: [publications entry](/publications/camlis-2025-harness-eval) · [arXiv:2608.13608](https://arxiv.org/abs/2608.13608)
