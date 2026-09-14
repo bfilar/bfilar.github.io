@@ -23,6 +23,7 @@ experience:
       - "Managed ML projects end-to-end: data needs, go/no-go performance metrics, and stakeholder communication."
       - "Technical lead of the Insights Initiative, an ML-backed approach to improving alert triage in the Elastic Security app."
       - "Drove a holistic ML approach (supervised + unsupervised) to tailoring detection to local environments."
+      - "Credited as a MITRE ATT&CK contributor for sub-technique T1547.009 (Shortcut Modification), a persistence technique covering adversary abuse of startup-folder shortcuts."
       - "Research on language models for anomalous behavior detection in event data."
       - "Built an ML service on top of alert feedback that reduced global false positives by ~40% within 48 hours of model releases."
   - role: "Director of Data Science"
