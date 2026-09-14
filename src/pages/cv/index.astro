@@ -42,6 +42,10 @@ const { name, title, location, experience = [], education = [], patents = [] } =
             )
         }
 
+        <div class="prose max-w-none">
+            <Content />
+        </div>
+
         {
             patents.length > 0 && (
                 <section class="section">
@@ -77,9 +81,5 @@ const { name, title, location, experience = [], education = [], patents = [] } =
                 </section>
             )
         }
-
-        <div class="prose max-w-none">
-            <Content />
-        </div>
     </div>
 </BaseLayout>
